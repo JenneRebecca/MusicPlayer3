@@ -40,16 +40,19 @@
             android:src="@drawable/headphones" />
 
         <ImageView
+            android:id="@+id/albums"
             style="@style/CategoryImage"
             android:src="@drawable/albumicon" />
 
         <ImageView
+            android:id="@+id/songs"
             style="@style/CategoryImage"
             android:src="@drawable/songicon" />
 
         <ImageView
+            android:id="@+id/playlists"
             style="@style/CategoryImage"
-            android:src="@drawable/playlisticon"/>
+            android:src="@drawable/playlisticon" />
 
     </LinearLayout>
 </RelativeLayout>
