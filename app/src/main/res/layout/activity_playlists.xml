@@ -19,14 +19,65 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/title">
 
-        <ListView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/playlist"
-            >
+            android:orientation="vertical">
 
-        </ListView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
+                <ImageView
+                    style="@style/PlaylistPic"
+                    android:src="@drawable/playlisticon" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/PlaylistText"
+                        android:text="Recent Favorite Playlist" />
+
+                    <TextView
+                        style="@style/PlaylistText"
+                        android:text="Samantha" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/PlaylistPic"
+                    android:src="@drawable/playlisticon" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/PlaylistText"
+                        android:text="Dance Mix" />
+
+                    <TextView
+                        style="@style/PlaylistText"
+                        android:text="Jason" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
     </ScrollView>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -53,6 +104,7 @@
             android:id="@+id/playlists"
             style="@style/CategoryImage"
             android:src="@drawable/playlisticon" />
+
 
     </LinearLayout>
 </RelativeLayout>
