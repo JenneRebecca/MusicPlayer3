@@ -30,6 +30,13 @@ public class Songs extends AppCompatActivity {
         songlist.add(new Song("Boomerang", "Imagine Dragons"));
         songlist.add(new Song("Natural", "Imagine Dragons"));
         songlist.add(new Song("Machine", "Imagine Dragons"));
+        songlist.add(new Song("Whatever It Takes", "Imagine Dragons"));
+        songlist.add(new Song("Demons", "Imagine Dragons"));
+        songlist.add(new Song("Radioactive", "Imagine Dragons"));
+        songlist.add(new Song("Next To Me", "Imagine Dragons"));
+        songlist.add(new Song("On Top Of The World", "Imagine Dragons"));
+        songlist.add(new Song("I Bet My Life", "Imagine Dragons"));
+
 
         SongAdapter adapter = new SongAdapter(this, songlist);
 
